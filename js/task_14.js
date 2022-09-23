@@ -8,9 +8,11 @@ const user = {
     premium: true,
 }
 
-const entryUser = Object.entries(user) 
+const entryUser = Object.entries(user)
+console.log(entryUser) 
 
 for (const [key, value] of entryUser) { //в [key, value] деструктиризація з об'єкту user
-
-    console.log(`${key}: ${value}`)
+    // console.log(key)
+    // console.log(value)
+    // console.log(`${key}: ${value}`)
 }
